@@ -1,16 +1,17 @@
 .navbar {
     transition: top 0.5s ease;
+    position: fixed;
+    top: 0;
+    height: 50px;
 }
 
 .navbar-hide {
-    top: -56px;
+    top: -50px;
 }
 
 .test {
     height: 1000px;
-    padding: 70px 0px;
     justify-content: center;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-top: 30px;
 }
