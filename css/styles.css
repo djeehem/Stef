@@ -4,14 +4,3 @@
     top: 0;
     height: 50px;
 }
-
-.navbar-hide {
-    top: -50px;
-}
-
-.test {
-    height: 1000px;
-    justify-content: center;
-    display: flex;
-    padding-top: 30px;
-}

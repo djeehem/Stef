@@ -10,6 +10,6 @@ $(document).ready(function() {
 
     let navbarHeight = $('.navbar').height();
 
-    $('.test').css({ marginTop : navbarHeight });
+    $('header').css({ marginTop :  `${navbarHeight + 30}px` });
 });
 
