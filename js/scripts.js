@@ -11,5 +11,19 @@ $(document).ready(function() {
     let navbarHeight = $('.navbar').height();
 
     $('header').css({ marginTop :  `${navbarHeight + 30}px` });
+
+    let activeTab = $('#pills-tab a').filter('.active');
+  
+    $('#pills-tab a').click(function(e) {
+      e.preventDefault();
+  
+      activeTab.removeClass('active');
+      $(activeTab.attr('href')).removeClass('active');
+  
+      activeTab = $(this);
+  
+      activeTab.addClass("active");
+      $(activeTab.attr('href')).addClass('active');
+    });
 });
 
